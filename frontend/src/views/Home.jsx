@@ -29,11 +29,7 @@ function Home() {
                   <h3 className="card-title">Au pain chaud</h3>
                   <p className="card-text fs-4">Boulanger</p>
                   <p className="card-text fs-4">📍 Montélimar</p>
-                  <img
-                    className="img-fluid w-100"
-                    src="/4,8.png"
-                    alt="notation du boulanger"
-                  />
+                  <p className="fs-2">★★★★☆</p>
                 </div>
               </div>
             </NavLink>
@@ -49,11 +45,7 @@ function Home() {
                   <h3 className="card-title">Chocolaterie labbé</h3>
                   <p className="card-text fs-4">Chocolatier</p>
                   <p className="card-text fs-4">📍 Lyon</p>
-                  <img
-                    className="img-fluid w-100"
-                    src="/4,9.png"
-                    alt="notation du chocolatier"
-                  />
+                  <p className="fs-2">★★★★☆</p>
                 </div>
               </div>
             </NavLink>
@@ -69,11 +61,7 @@ function Home() {
                   <h3 className="card-title">Orville Salmons</h3>
                   <p className="card-text fs-4">Chauffagiste</p>
                   <p className="card-text fs-4">📍 Evian</p>
-                  <img
-                    className="img-fluid w-100"
-                    src="/5.png"
-                    alt="notation du chauffagiste"
-                  />
+                  <p className="fs-2">★★★★★</p>
                 </div>
               </div>
             </NavLink>

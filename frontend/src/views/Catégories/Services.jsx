@@ -5,9 +5,9 @@ function Services() {
   return (
     <>
       {/* Hero section*/}
-      <div className="hero-bat"></div>
+      <div className="hero-service"></div>
       <div className="text-center pt-3">
-        <h1>Artisans du Bâtiment</h1>
+        <h1>Créateurs de services</h1>
         <p className="mx-5 my-4">
           Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -18,68 +18,107 @@ function Services() {
       </div>
       {/* Artisans section */}
       <div className="separator-bar"></div>
-      <h2 className="ps-4">Les artisans du secteur du Bâtiment</h2>
-      {/* fiches artisans */}
+      <h2 className="ps-4">
+        Les artisans spécialisés dans la création de services
+      </h2>
+      {/* fiches artisans première ligne*/}
       <div className="container my-5">
         <div className="row g-4">
-          <div className="col-md-6">
+          <div className="col-md-4">
             <NavLink
               to="/"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="card shadow rounded">
                 <div className="card-body text-center">
-                  <h3 className="card-title">Orville Salmons</h3>
-                  <p className="card-text fs-4">Chauffagiste</p>
-                  <p className="card-text fs-4">📍 Evian</p>
+                  <h3 className="card-title">Royden Charbonneau</h3>
+                  <p className="card-text fs-4">Coiffeur</p>
+                  <p className="card-text fs-4">📍 Saint-Priest</p>
+                  <p className="fs-2">★★★☆☆</p>
+                </div>
+              </div>
+            </NavLink>
+          </div>
+
+          <div className="col-md-4">
+            <NavLink
+              to="/"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <div className="card shadow rounded">
+                <div className="card-body text-center">
+                  <h3 className="card-title">Leala Dennis</h3>
+                  <p className="card-text fs-4">Coiffeur</p>
+                  <p className="card-text fs-4">📍 Chambérie</p>
+                  <p className="fs-2">★★★☆☆</p>
+                </div>
+              </div>
+            </NavLink>
+          </div>
+
+          <div className="col-md-4">
+            <NavLink
+              to="/"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <div className="card shadow rounded">
+                <div className="card-body text-center">
+                  <h3 className="card-title">C'est sup'hair</h3>
+                  <p className="card-text fs-4">Coiffeur </p>
+                  <p className="card-text fs-4">📍 Romans-sur-Isère</p>
+                  <p className="fs-2">★★★★☆</p>
+                </div>
+              </div>
+            </NavLink>
+          </div>
+        </div>
+      </div>
+
+      {/* fiches artisans seconde ligne*/}
+      <div className="container my-5">
+        <div className="row g-4">
+          <div className="col-md-4">
+            <NavLink
+              to="/"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <div className="card shadow rounded">
+                <div className="card-body text-center">
+                  <h3 className="card-title">Le monde des fleurs</h3>
+                  <p className="card-text fs-4">Fleuriste</p>
+                  <p className="card-text fs-4">📍 Annonay</p>
                   <p className="fs-2">★★★★☆</p>
                 </div>
               </div>
             </NavLink>
           </div>
 
-          <div className="col-md-6">
+          <div className="col-md-4">
             <NavLink
               to="/"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="card shadow rounded">
                 <div className="card-body text-center">
-                  <h3 className="card-title">Mont Blanc Électricité</h3>
-                  <p className="card-text fs-4">Électricien</p>
-                  <p className="card-text fs-4">📍 Chamonix</p>
+                  <h3 className="card-title">Valérie Laderoute</h3>
+                  <p className="card-text fs-4">Toilletteur</p>
+                  <p className="card-text fs-4">📍 Valence</p>
                   <p className="fs-2">★★★★☆</p>
                 </div>
               </div>
             </NavLink>
           </div>
 
-          <div className="col-md-6">
+          <div className="col-md-4">
             <NavLink
               to="/"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="card shadow rounded">
                 <div className="card-body text-center">
-                  <h3 className="card-title">Bouto & fils</h3>
-                  <p className="card-text fs-4">Menuisier</p>
-                  <p className="card-text fs-4">📍 Bourg-en-bresse</p>
-                  <p className="fs-2">★★★★☆</p>
-                </div>
-              </div>
-            </NavLink>
-          </div>
-
-          <div className="col-md-6">
-            <NavLink
-              to="/"
-              style={{ textDecoration: "none", color: "inherit" }}
-            >
-              <div className="card shadow rounded">
-                <div className="card-body text-center">
-                  <h3 className="card-title">Vallis Bellemare</h3>
-                  <p className="card-text fs-4">Plombier</p>
-                  <p className="card-text fs-4">📍 Vienne</p>
+                  <h3 className="card-title">CM Graphisme</h3>
+                  <p className="card-text fs-4">Webdesign</p>
+                  <p className="card-text fs-4">📍 Valence</p>
                   <p className="fs-2">★★★★☆</p>
                 </div>
               </div>

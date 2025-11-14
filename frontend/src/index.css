@@ -93,3 +93,14 @@ Footer {
   background-repeat: no-repeat;
   position: relative;
 }
+
+/* Page Service */
+.hero-service {
+  background-image: url("/fleuriste.png");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}

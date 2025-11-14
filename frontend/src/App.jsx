@@ -9,6 +9,7 @@ import Batiment from "./views/Catégories/Batiment";
 import Services from "./views/Catégories/Services";
 import Fabrication from "./views/Catégories/Fabrication";
 import Alimentation from "./views/Catégories/Alimentation";
+import Dumint from "./views/ficheArtisans/Dumont";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/Services" element={<Services />} />
           <Route path="/Fabrication" element={<Fabrication />} />
           <Route path="/Alimentation" element={<Alimentation />} />
+          <Route path="/Alimentation/Dumont" element={<Dumont />} />
         </Routes>
       </div>
       <Footer />

@@ -9,7 +9,7 @@ import Batiment from "./views/Catégories/Batiment";
 import Services from "./views/Catégories/Services";
 import Fabrication from "./views/Catégories/Fabrication";
 import Alimentation from "./views/Catégories/Alimentation";
-import Dumint from "./views/ficheArtisans/Dumont";
+import Dumont from "./views/ficheArtisans/Dumont";
 
 function App() {
   return (

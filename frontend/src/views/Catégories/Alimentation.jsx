@@ -26,7 +26,7 @@ function Alimentation() {
         <div className="row g-4">
           <div className="col-md-6">
             <NavLink
-              to="/"
+              to="/Alimentation/Dumont"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="card shadow rounded">

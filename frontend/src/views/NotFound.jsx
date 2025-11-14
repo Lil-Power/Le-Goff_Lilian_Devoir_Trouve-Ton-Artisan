@@ -11,12 +11,14 @@ function NotFound() {
           alt="Erreur 404, page non trouvée"
         />{" "}
         <br />
-        <button
-          type="submit"
-          className="btn btn-outline-primary fs-1 text-black"
-        >
-          Cliquez moi pour revenir à l’accueil 👀{" "}
-        </button>
+        <NavLink to="/" style={{ textDecoration: "none", color: "inherit" }}>
+          <button
+            type="submit"
+            className="btn btn-outline-primary fs-1 text-black"
+          >
+            Cliquez moi pour revenir à l’accueil 👀{" "}
+          </button>
+        </NavLink>
       </div>
     </>
   );

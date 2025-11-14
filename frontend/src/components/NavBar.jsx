@@ -38,7 +38,7 @@ function NavBar() {
                   className={({ isActive }) =>
                     "nav-link fw-bold" + (isActive ? " active-link" : "")
                   }
-                  to="/"
+                  to="/Batiment"
                 >
                   Bâtiment
                 </NavLink>
@@ -48,7 +48,7 @@ function NavBar() {
                   className={({ isActive }) =>
                     "nav-link fw-bold" + (isActive ? " active-link" : "")
                   }
-                  to="/"
+                  to="/Services"
                 >
                   Services
                 </NavLink>
@@ -58,7 +58,7 @@ function NavBar() {
                   className={({ isActive }) =>
                     "nav-link fw-bold" + (isActive ? " active-link" : "")
                   }
-                  to="/"
+                  to="/Fabrication"
                 >
                   Fabrication
                 </NavLink>
@@ -68,7 +68,7 @@ function NavBar() {
                   className={({ isActive }) =>
                     "nav-link fw-bold" + (isActive ? " active-link" : "")
                   }
-                  to="/"
+                  to="/Alimentation"
                 >
                   Alimentation
                 </NavLink>

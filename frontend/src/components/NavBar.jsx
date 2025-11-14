@@ -38,7 +38,7 @@ function NavBar() {
                   className={({ isActive }) =>
                     "nav-link fw-bold" + (isActive ? " active-link" : "")
                   }
-                  to="/"
+                  to="/Batiment"
                 >
                   Bâtiment
                 </NavLink>

@@ -1,0 +1,83 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.main-content {
+  flex: 1;
+}
+
+/* NavBar */
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+/* Footer */
+Footer {
+  background-color: #0074c7;
+}
+
+.linkFooter {
+  text-decoration: none;
+}
+
+.no-underline {
+  text-decoration: none;
+  color: inherit;
+}
+
+.small-spacing p,
+.small-spacing a {
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* Home page */
+.hero {
+  background-image: url("/hands.png");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.separator-bar {
+  height: 15px;
+  background-color: #0074c7;
+  width: 5%;
+  max-width: 600px;
+  margin: 20px;
+  padding-top: 10px;
+}

@@ -104,3 +104,14 @@ Footer {
   background-repeat: no-repeat;
   position: relative;
 }
+
+/* Page Fabrication */
+.hero-fabrication {
+  background-image: url("/bijoutier.png");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}

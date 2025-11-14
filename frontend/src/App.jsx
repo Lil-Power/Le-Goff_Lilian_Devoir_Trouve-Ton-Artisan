@@ -7,6 +7,7 @@ import Construction from "./views/Construction";
 import NotFound from "./views/NotFound";
 import Batiment from "./views/Catégories/Batiment";
 import Services from "./views/Catégories/Services";
+import Fabrication from "./views/Catégories/Fabrication";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
           <Route path="/Batiment" element={<Batiment />} />
           <Route path="/Services" element={<Services />} />
+          <Route path="/Fabrication" element={<Fabrication />} />
         </Routes>
       </div>
       <Footer />

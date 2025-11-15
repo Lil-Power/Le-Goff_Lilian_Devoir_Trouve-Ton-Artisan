@@ -2,6 +2,7 @@ const express = require("express");
 const ENV = require("./backend/config");
 const { db } = require("./backend/models");
 const cookieParser = require("cookie-parser");
+const cors = require("cors");
 
 const app = express();
 
@@ -18,6 +19,13 @@ const PORT = ENV.PORT || 8080;
 // middleware
 app.use(express.json());
 app.use(cookieParser());
+app.use(
+  cors({
+    origin: "http://localhost:5173",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+  })
+);
 
 // prefix
 app.use("/api/artisan", artisanRouter);

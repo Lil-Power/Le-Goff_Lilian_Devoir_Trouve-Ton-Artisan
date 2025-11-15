@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import ContactForm from "../components/contactForm";
 
 function Dumont() {
   return (
@@ -29,9 +29,14 @@ function Dumont() {
         </div>
       </div>
 
-      {/* formulaire de contact */}
-      <div className="separator-bar"></div>
-      <h2 className="ps-4 text-center">Prendre contact avec cet artisan</h2>
+      {/* Formulaire de contact */}
+      <div className="mb-5">
+        <div className="separator-bar mt-5 mb-3"></div>
+        <h2 className="ps-4 text-center mb-4">
+          Prendre contact avec cet artisan
+        </h2>
+        <ContactForm idArtisan={1} />
+      </div>
     </>
   );
 }

@@ -53,7 +53,7 @@ function Home() {
 
           <div className="col-md-4">
             <NavLink
-              to="/"
+              to="/Batiment/Orville-Salmons"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="card shadow rounded">

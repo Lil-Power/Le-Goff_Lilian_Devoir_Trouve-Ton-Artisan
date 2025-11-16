@@ -1,35 +1,29 @@
 import React from "react";
 import ContactForm from "../components/contactForm";
 
-function Labbe() {
+function Orville() {
   return (
     <>
       <div className="container pt-5">
         <div className="row">
           {/* Colonne texte */}
           <div className="col-md-6 ps-5 text-center">
-            <h1>Chocolaterie Labbé</h1>
-            <p className="fs-4">Chocolatier</p>
+            <h1>Orville Salmons</h1>
+            <p className="fs-4">Chauffagiste</p>
             <p className="fs-4">
               Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
 
-            <p className="fs-4">📍 Lyon</p>
-            <a
-              className="text-decoration-none text-black fs-4"
-              href="https://chocolaterie-labbe.fr"
-            >
-              🌐 Chocolatierie-Labbé.fr
-            </a>
-            <p className="fs-2">★★★★☆</p>
+            <p className="fs-4">📍 Evian</p>
+            <p className="fs-2">★★★★★</p>
           </div>
 
           {/* Colonne image */}
           <div className="col-md-6">
             <img
-              src="/chocolatier.jpg"
-              alt="Chocolatier au travail"
+              src="/chauffage.jpg"
+              alt="Système de chauffage"
               className="img-fluid"
             />
           </div>
@@ -42,10 +36,10 @@ function Labbe() {
         <h2 className="ps-4 text-center mb-4">
           Prendre contact avec cet artisan
         </h2>
-        <ContactForm idArtisan={3} />
+        <ContactForm idArtisan={5} />
       </div>
     </>
   );
 }
 
-export default Labbe;
+export default Orville;

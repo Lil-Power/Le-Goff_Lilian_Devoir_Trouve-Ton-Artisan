@@ -13,6 +13,10 @@ import Dumont from "./views/ficheArtisans/Dumont";
 import AuPainChaud from "./views/ficheArtisans/AuPainChaud";
 import Labbe from "./views/ficheArtisans/Labbe";
 import Truchon from "./views/ficheArtisans/Truchon";
+import Orville from "./views/ficheArtisans/Orville";
+import MBE from "./views/ficheArtisans/MBE";
+import Boutot from "./views/ficheArtisans/Boutot";
+import Vallis from "./views/ficheArtisans/Vallis";
 
 function App() {
   return (
@@ -31,6 +35,10 @@ function App() {
           <Route path="/Alimentation/AuPainChaud" element={<AuPainChaud />} />
           <Route path="/Alimentation/Chocolaterie-Labbe" element={<Labbe />} />
           <Route path="/Alimentation/Traiteur-Truchon" element={<Truchon />} />
+          <Route path="/Batiment/Orville-Salmons" element={<Orville />} />
+          <Route path="/Batiment/Mont-Blanc-Electricite" element={<MBE />} />
+          <Route path="/Batiment/Boutot-&-fils" element={<Boutot />} />
+          <Route path="/Batiment/Vallis-Bellemare" element={<Vallis />} />
         </Routes>
       </div>
       <Footer />

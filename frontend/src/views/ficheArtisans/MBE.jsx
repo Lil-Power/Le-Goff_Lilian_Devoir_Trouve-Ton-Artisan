@@ -1,26 +1,25 @@
 import React from "react";
 import ContactForm from "../components/contactForm";
 
-function Labbe() {
+function MBE() {
   return (
     <>
       <div className="container pt-5">
         <div className="row">
           {/* Colonne texte */}
           <div className="col-md-6 ps-5 text-center">
-            <h1>Chocolaterie Labbé</h1>
-            <p className="fs-4">Chocolatier</p>
+            <h1>Mont Blanc Électricité</h1>
+            <p className="fs-4">Électricien</p>
             <p className="fs-4">
               Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-
-            <p className="fs-4">📍 Lyon</p>
+            <p className="fs-4">📍 Chamonix</p>
             <a
               className="text-decoration-none text-black fs-4"
-              href="https://chocolaterie-labbe.fr"
+              href="https://mont-blanc-electricite.com"
             >
-              🌐 Chocolatierie-Labbé.fr
+              🌐 Mont-Blanc-Électricité.com
             </a>
             <p className="fs-2">★★★★☆</p>
           </div>
@@ -28,8 +27,8 @@ function Labbe() {
           {/* Colonne image */}
           <div className="col-md-6">
             <img
-              src="/chocolatier.jpg"
-              alt="Chocolatier au travail"
+              src="/electricien.jpg"
+              alt="Électricien au travail"
               className="img-fluid"
             />
           </div>
@@ -42,10 +41,10 @@ function Labbe() {
         <h2 className="ps-4 text-center mb-4">
           Prendre contact avec cet artisan
         </h2>
-        <ContactForm idArtisan={3} />
+        <ContactForm idArtisan={6} />
       </div>
     </>
   );
 }
 
-export default Labbe;
+export default MBE;

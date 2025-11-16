@@ -9,11 +9,12 @@ function Dumont() {
           {/* Colonne texte */}
           <div className="col-md-6 ps-5 text-center">
             <h1>Boucherie Dumont</h1>
+            <p className="fs-4">Boucher</p>
             <p className="fs-4">
               Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <p className="fs-4">Boucher</p>
+
             <p className="fs-4">📍 Lyon</p>
             <p className="fs-2">★★★★☆</p>
           </div>

@@ -24,7 +24,7 @@ function Batiment() {
         <div className="row g-4">
           <div className="col-md-6">
             <NavLink
-              to="/"
+              to="/Batiment/Orville-Salmons"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="card shadow rounded">
@@ -32,7 +32,7 @@ function Batiment() {
                   <h3 className="card-title">Orville Salmons</h3>
                   <p className="card-text fs-4">Chauffagiste</p>
                   <p className="card-text fs-4">📍 Evian</p>
-                  <p className="fs-2">★★★★☆</p>
+                  <p className="fs-2">★★★★★</p>
                 </div>
               </div>
             </NavLink>
@@ -40,7 +40,7 @@ function Batiment() {
 
           <div className="col-md-6">
             <NavLink
-              to="/"
+              to="/Batiment/Mont-Blanc-Electricite"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="card shadow rounded">
@@ -56,7 +56,7 @@ function Batiment() {
 
           <div className="col-md-6">
             <NavLink
-              to="/"
+              to="/Batiment/Boutot-&-fils"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="card shadow rounded">
@@ -72,7 +72,7 @@ function Batiment() {
 
           <div className="col-md-6">
             <NavLink
-              to="/"
+              to="/Batiment/Vallis-Bellemare"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="card shadow rounded">

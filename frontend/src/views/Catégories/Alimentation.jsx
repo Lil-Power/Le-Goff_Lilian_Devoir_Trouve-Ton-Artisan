@@ -42,7 +42,7 @@ function Alimentation() {
 
           <div className="col-md-6">
             <NavLink
-              to="/"
+              to="/Alimentation/auPainChaud"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="card shadow rounded">
@@ -58,7 +58,7 @@ function Alimentation() {
 
           <div className="col-md-6">
             <NavLink
-              to="/"
+              to="/Alimentation/Chocolaterie-Labbe"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="card shadow rounded">
@@ -74,7 +74,7 @@ function Alimentation() {
 
           <div className="col-md-6">
             <NavLink
-              to="/"
+              to="/Alimentation/Traiteur-Truchon"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="card shadow rounded">

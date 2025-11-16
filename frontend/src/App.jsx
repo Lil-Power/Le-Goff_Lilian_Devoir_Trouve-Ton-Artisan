@@ -10,6 +10,9 @@ import Services from "./views/Catégories/Services";
 import Fabrication from "./views/Catégories/Fabrication";
 import Alimentation from "./views/Catégories/Alimentation";
 import Dumont from "./views/ficheArtisans/Dumont";
+import AuPainChaud from "./views/ficheArtisans/AuPainChaud";
+import Labbe from "./views/ficheArtisans/Labbe";
+import Truchon from "./views/ficheArtisans/Truchon";
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
           <Route path="/Fabrication" element={<Fabrication />} />
           <Route path="/Alimentation" element={<Alimentation />} />
           <Route path="/Alimentation/Dumont" element={<Dumont />} />
+          <Route path="/Alimentation/AuPainChaud" element={<AuPainChaud />} />
+          <Route path="/Alimentation/Chocolaterie-Labbe" element={<Labbe />} />
+          <Route path="/Alimentation/Traiteur-Truchon" element={<Truchon />} />
         </Routes>
       </div>
       <Footer />

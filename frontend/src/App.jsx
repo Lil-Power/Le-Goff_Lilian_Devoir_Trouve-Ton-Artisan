@@ -20,6 +20,12 @@ import Vallis from "./views/ficheArtisans/Vallis";
 import Quinn from "./views/ficheArtisans/Quinn";
 import Amitee from "./views/ficheArtisans/Amitee";
 import Carignan from "./views/ficheArtisans/Carignan";
+import Royden from "./views/ficheArtisans/Royden";
+import Leala from "./views/ficheArtisans/Leala";
+import SupHair from "./views/ficheArtisans/SupHair";
+import MondeDesFleurs from "./views/ficheArtisans/MondeDesFleurs";
+import Laderoute from "./views/ficheArtisans/Laderoute";
+import CMGraphisme from "./views/ficheArtisans/CMGraphisme";
 
 function App() {
   return (
@@ -45,6 +51,15 @@ function App() {
           <Route path="/Fabrication/Claude-Quinn" element={<Quinn />} />
           <Route path="/Fabrication/Amitee-Lecuyer" element={<Amitee />} />
           <Route path="/Fabrication/Ernest-Carignan" element={<Carignan />} />
+          <Route path="/Services/Royden-Charbonneau" element={<Royden />} />
+          <Route path="/Services/Leala-Dennis" element={<Leala />} />
+          <Route path="/Services/Cest-sup-hair" element={<SupHair />} />
+          <Route
+            path="/Services/Le-monde-des-fleurs"
+            element={<MondeDesFleurs />}
+          />
+          <Route path="/Services/Valerie-Laderoute" element={<Laderoute />} />
+          <Route path="/Services/CM-Graphisme" element={<CMGraphisme />} />
         </Routes>
       </div>
       <Footer />

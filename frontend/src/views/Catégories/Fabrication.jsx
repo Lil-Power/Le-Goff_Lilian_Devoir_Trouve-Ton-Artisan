@@ -24,7 +24,7 @@ function Fabrication() {
         <div className="row g-4">
           <div className="col-md-4">
             <NavLink
-              to="/"
+              to="/Fabrication/Claude-Quinn"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="card shadow rounded">
@@ -40,7 +40,7 @@ function Fabrication() {
 
           <div className="col-md-4">
             <NavLink
-              to="/"
+              to="/Fabrication/Amitee-Lecuyer"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="card shadow rounded">
@@ -56,7 +56,7 @@ function Fabrication() {
 
           <div className="col-md-4">
             <NavLink
-              to="/"
+              to="/Fabrication/Ernest-Carignan"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="card shadow rounded">

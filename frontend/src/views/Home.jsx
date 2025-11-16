@@ -21,7 +21,7 @@ function Home() {
         <div className="row g-4">
           <div className="col-md-4">
             <NavLink
-              to="/"
+              to="/Alimentation/AuPainChaud"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="card shadow rounded">
@@ -37,7 +37,7 @@ function Home() {
 
           <div className="col-md-4">
             <NavLink
-              to="/"
+              to="/Alimentation/Chocolaterie-Labbe"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="card shadow rounded">
@@ -53,7 +53,7 @@ function Home() {
 
           <div className="col-md-4">
             <NavLink
-              to="/"
+              to="/Batiment/Orville-Salmons"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="card shadow rounded">

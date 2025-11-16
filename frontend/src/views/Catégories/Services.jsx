@@ -26,7 +26,7 @@ function Services() {
         <div className="row g-4">
           <div className="col-md-4">
             <NavLink
-              to="/"
+              to="/Services/Royden-Charbonneau"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="card shadow rounded">
@@ -42,14 +42,14 @@ function Services() {
 
           <div className="col-md-4">
             <NavLink
-              to="/"
+              to="/Services/Leala-Dennis"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="card shadow rounded">
                 <div className="card-body text-center">
                   <h3 className="card-title">Leala Dennis</h3>
                   <p className="card-text fs-4">Coiffeur</p>
-                  <p className="card-text fs-4">📍 Chambérie</p>
+                  <p className="card-text fs-4">📍 Chambéry</p>
                   <p className="fs-2">★★★☆☆</p>
                 </div>
               </div>
@@ -58,7 +58,7 @@ function Services() {
 
           <div className="col-md-4">
             <NavLink
-              to="/"
+              to="/Services/Cest-sup-hair"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="card shadow rounded">
@@ -79,7 +79,7 @@ function Services() {
         <div className="row g-4">
           <div className="col-md-4">
             <NavLink
-              to="/"
+              to="/Services/Le-monde-des-fleurs"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="card shadow rounded">
@@ -95,7 +95,7 @@ function Services() {
 
           <div className="col-md-4">
             <NavLink
-              to="/"
+              to="/Services/Valerie-Laderoute"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="card shadow rounded">
@@ -111,7 +111,7 @@ function Services() {
 
           <div className="col-md-4">
             <NavLink
-              to="/"
+              to="/Services/CM-Graphisme"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="card shadow rounded">

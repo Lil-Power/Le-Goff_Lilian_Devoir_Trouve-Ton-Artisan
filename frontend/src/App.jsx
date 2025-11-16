@@ -17,6 +17,9 @@ import Orville from "./views/ficheArtisans/Orville";
 import MBE from "./views/ficheArtisans/MBE";
 import Boutot from "./views/ficheArtisans/Boutot";
 import Vallis from "./views/ficheArtisans/Vallis";
+import Quinn from "./views/ficheArtisans/Quinn";
+import Amitee from "./views/ficheArtisans/Amitee";
+import Carignan from "./views/ficheArtisans/Carignan";
 
 function App() {
   return (
@@ -39,6 +42,9 @@ function App() {
           <Route path="/Batiment/Mont-Blanc-Electricite" element={<MBE />} />
           <Route path="/Batiment/Boutot-&-fils" element={<Boutot />} />
           <Route path="/Batiment/Vallis-Bellemare" element={<Vallis />} />
+          <Route path="/Fabrication/Claude-Quinn" element={<Quinn />} />
+          <Route path="/Fabrication/Amitee-Lecuyer" element={<Amitee />} />
+          <Route path="/Fabrication/Ernest-Carignan" element={<Carignan />} />
         </Routes>
       </div>
       <Footer />

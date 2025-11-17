@@ -1,9 +1,18 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 function Services() {
   return (
     <>
+      <Helmet>
+        <title>Catégorie Services</title>
+        <meta
+          name="description"
+          content="Vous retrouverez sur cette page l'ensemble des artisans de la catégorie Services."
+        />
+      </Helmet>
+
       {/* Hero section*/}
       <div className="hero-service"></div>
       <div className="text-center pt-3">

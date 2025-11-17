@@ -1,7 +1,10 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+
+//Import des components
 import NavBar from "./views/components/NavBar";
 import Footer from "./views/components/Footer";
+//Import des views
 import Home from "./views/Home";
 import Construction from "./views/Construction";
 import NotFound from "./views/NotFound";

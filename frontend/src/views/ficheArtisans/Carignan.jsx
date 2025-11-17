@@ -1,9 +1,18 @@
 import React from "react";
 import ContactForm from "../components/contactForm";
+import { Helmet } from "react-helmet-async";
 
 function Carignan() {
   return (
     <>
+      <Helmet>
+        <title>Ernest Carignan - ferronier</title>
+        <meta
+          name="description"
+          content="Ernest Carignan, artiste émérite, vous présente ses dernières créations"
+        />
+      </Helmet>
+
       <div className="container pt-5">
         <div className="row">
           {/* Colonne texte */}

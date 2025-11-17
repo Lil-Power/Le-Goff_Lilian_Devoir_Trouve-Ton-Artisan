@@ -1,9 +1,18 @@
 import React from "react";
 import ContactForm from "../components/contactForm";
+import { Helmet } from "react-helmet-async";
 
 function Royden() {
   return (
     <>
+      <Helmet>
+        <title>Royden Charbonneau - coiffeur</title>
+        <meta
+          name="description"
+          content="Royden Charbonneau, spécialisé dans les coupes et les barbes hommes, vous accuille à Saint-Priest."
+        />
+      </Helmet>
+
       <div className="container pt-5">
         <div className="row">
           {/* Colonne texte */}

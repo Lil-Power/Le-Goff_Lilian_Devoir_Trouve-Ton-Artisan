@@ -1,9 +1,18 @@
 import React from "react";
 import ContactForm from "../components/contactForm";
+import { Helmet } from "react-helmet-async";
 
 function Dumont() {
   return (
     <>
+      <Helmet>
+        <title>Boucherie Dumont - boucherie</title>
+        <meta
+          name="description"
+          content="La Boucherie Dumont mets à votre service ses 80 ans d'expérience dans la viande française."
+        />
+      </Helmet>
+
       <div className="container pt-5">
         <div className="row">
           {/* Colonne texte */}

@@ -1,9 +1,18 @@
 import React from "react";
 import ContactForm from "../components/contactForm";
+import { Helmet } from "react-helmet-async";
 
 function Truchon() {
   return (
     <>
+      <Helmet>
+        <title>Traiteur Truchon - traiteur</title>
+        <meta
+          name="description"
+          content="Le Traiteur Truchon propose une cuisine maison pour tous vos événements. Plats raffinés, produits frais et prestations personnalisées."
+        />
+      </Helmet>
+
       <div className="container pt-5">
         <div className="row">
           {/* Colonne texte */}

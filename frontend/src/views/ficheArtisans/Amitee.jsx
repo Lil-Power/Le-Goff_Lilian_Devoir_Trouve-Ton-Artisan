@@ -1,9 +1,18 @@
 import React from "react";
 import ContactForm from "../components/contactForm";
+import { Helmet } from "react-helmet-async";
 
 function Amitee() {
   return (
     <>
+      <Helmet>
+        <title>Amitee Lécuyer - Couturier</title>
+        <meta
+          name="description"
+          content="Amitee Lécuyer, couturier à Annecy vous propose ses services de réparation, création et bien d'autres."
+        />
+      </Helmet>
+
       <div className="container pt-5">
         <div className="row">
           {/* Colonne texte */}

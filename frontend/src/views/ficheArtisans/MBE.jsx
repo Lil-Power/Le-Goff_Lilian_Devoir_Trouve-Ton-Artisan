@@ -1,9 +1,18 @@
 import React from "react";
 import ContactForm from "../components/contactForm";
+import { Helmet } from "react-helmet-async";
 
 function MBE() {
   return (
     <>
+      <Helmet>
+        <title>Mont Blanc Électricité - électricien</title>
+        <meta
+          name="description"
+          content="Mont Blanc Électricité proposent ses services sur Chamonix, rénovation, mis en place, tout pour vos travaux électriques"
+        />
+      </Helmet>
+
       <div className="container pt-5">
         <div className="row">
           {/* Colonne texte */}

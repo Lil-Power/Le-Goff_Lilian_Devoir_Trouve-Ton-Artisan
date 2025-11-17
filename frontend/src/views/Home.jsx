@@ -1,9 +1,18 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 function Home() {
   return (
     <>
+      <Helmet>
+        <title>Page d'accueil - Trouve ton artisan</title>
+        <meta
+          name="description"
+          content="Vous vous trouvez actuellement sur la page d'accueil du site Trouve ton artisan, de la région Auverge-Rhône-Alpes."
+        />
+      </Helmet>
+
       {/* Hero section*/}
       <div className="hero"></div>
       <div className="text-center pt-3">

@@ -1,9 +1,18 @@
 import React from "react";
 import ContactForm from "../components/contactForm";
+import { Helmet } from "react-helmet-async";
 
 function Boutot() {
   return (
     <>
+      <Helmet>
+        <title>Boutot & fils - menuisiers</title>
+        <meta
+          name="description"
+          content="Les menuisiers Boutot & fils vous proposent leurs services de qualité dans la région de Bourg-en-bresse."
+        />
+      </Helmet>
+
       <div className="container pt-5">
         <div className="row">
           {/* Colonne texte */}

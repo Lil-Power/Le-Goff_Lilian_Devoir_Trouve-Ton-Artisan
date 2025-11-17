@@ -1,9 +1,18 @@
 import React from "react";
 import ContactForm from "../components/contactForm";
+import { Helmet } from "react-helmet-async";
 
 function Leala() {
   return (
     <>
+      <Helmet>
+        <title>Leala Dennis - coiffeur</title>
+        <meta
+          name="description"
+          content="Leala Dennis, coiffeur spécialisé dans les coupes femmes à Chambéry."
+        />
+      </Helmet>
+
       <div className="container pt-5">
         <div className="row">
           {/* Colonne texte */}

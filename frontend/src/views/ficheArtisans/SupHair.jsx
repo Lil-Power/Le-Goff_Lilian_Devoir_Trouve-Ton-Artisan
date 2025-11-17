@@ -1,19 +1,9 @@
 import React from "react";
 import ContactForm from "../components/contactForm";
-import { Helmet } from "react-helmet-async";
 
 function SupHair() {
   return (
     <>
-      <Helmet>
-        <title>C'est sup'hair - coiffeur</title>
-        <meta
-          name="description"
-          content="C’est Sup’Hair, salon de coiffure moderne : coupes, colorations, soins capillaires et conseils personnalisés. Prenez soin de vos cheveux avec un artisan passionné.
-"
-        />
-      </Helmet>
-
       <div className="container pt-5">
         <div className="row">
           {/* Colonne texte */}

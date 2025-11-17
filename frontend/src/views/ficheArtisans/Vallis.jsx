@@ -1,19 +1,9 @@
 import React from "react";
 import ContactForm from "../components/contactForm";
-import { Helmet } from "react-helmet-async";
 
 function Vallis() {
   return (
     <>
-      <Helmet>
-        <title>Vallis Bellemare - plombier</title>
-        <meta
-          name="description"
-          content="Vallis Bellemare réalise vos travaux de rénovation et d’aménagement. Expertise en plomberie, interventions soignées et accompagnement complet de votre projet.
-"
-        />
-      </Helmet>
-
       <div className="container pt-5">
         <div className="row">
           {/* Colonne texte */}

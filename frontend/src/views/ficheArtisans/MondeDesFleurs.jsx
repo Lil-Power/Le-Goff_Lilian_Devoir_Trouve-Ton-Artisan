@@ -1,18 +1,9 @@
 import React from "react";
 import ContactForm from "../components/contactForm";
-import { Helmet } from "react-helmet-async";
 
 function MondeDesFleurs() {
   return (
     <>
-      <Helmet>
-        <title>Le Monde des fleurs - fleuriste</title>
-        <meta
-          name="description"
-          content="Le Monde des Fleurs, fleuriste à Annonay. Créations florales, bouquets sur mesure et compositions uniques."
-        />
-      </Helmet>
-
       <div className="container pt-5">
         <div className="row">
           {/* Colonne texte */}

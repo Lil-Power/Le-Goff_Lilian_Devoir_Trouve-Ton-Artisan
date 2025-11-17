@@ -1,18 +1,9 @@
 import React from "react";
 import ContactForm from "../components/contactForm";
-import { Helmet } from "react-helmet-async";
 
 function AuPainChaud() {
   return (
     <>
-      <Helmet>
-        <title>Au pain chaud - boulangerie</title>
-        <meta
-          name="description"
-          content="La boulangerie Au pain chaud vous propose une farandole de pains et de pâtisseries qui sauront vous râvir."
-        />
-      </Helmet>
-
       <div className="container pt-5">
         <div className="row">
           {/* Colonne texte */}

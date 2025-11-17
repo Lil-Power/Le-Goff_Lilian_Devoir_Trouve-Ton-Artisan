@@ -1,18 +1,9 @@
 import React from "react";
 import ContactForm from "../components/contactForm";
-import { Helmet } from "react-helmet-async";
 
 function Labbe() {
   return (
     <>
-      <Helmet>
-        <title>Chocolaterie Labbé - chocolatier</title>
-        <meta
-          name="description"
-          content="La Chocolaterie Labbé, élue meilleure chocolaterie de Lyon en 2025, vous présente ses créations chocolatées."
-        />
-      </Helmet>
-
       <div className="container pt-5">
         <div className="row">
           {/* Colonne texte */}

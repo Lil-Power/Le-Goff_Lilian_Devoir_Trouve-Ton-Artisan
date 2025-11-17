@@ -1,17 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
 
 function Alimentation() {
   return (
     <>
-      <Helmet>
-        <title>Catégorie Alimentation</title>
-        <meta
-          name="description"
-          content="Vous retrouverez sur cette page l'ensemble des artisans de la catégorie Alimentation."
-        />
-      </Helmet>
       {/* Hero section*/}
       <div className="hero-alimentation"></div>
       <div className="text-center pt-3">

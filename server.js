@@ -7,7 +7,7 @@ const path = require("path");
 
 const app = express();
 
-// importation des routes
+// Importation des routes
 const artisanRouter = require("./backend/routes/artisanRoute");
 const categorieRouter = require("./backend/routes/categorieRoute");
 const specialiteRouter = require("./backend/routes/specialiteRoute");
@@ -17,7 +17,7 @@ const authRouter = require("./backend/routes/authRoute");
 // PORT fourni par Render ou fallback local
 const PORT = process.env.PORT || ENV.PORT || 8080;
 
-// middleware
+// Middleware global
 app.use(express.json());
 app.use(cookieParser());
 app.use(
@@ -28,7 +28,7 @@ app.use(
   })
 );
 
-// prefix
+// Routes API
 app.use("/api/artisan", artisanRouter);
 app.use("/api/categorie", categorieRouter);
 app.use("/api/specialite", specialiteRouter);
@@ -42,11 +42,7 @@ app.use((err, req, res, next) => {
   const details = err.details || null;
 
   res.status(status).json({
-    error: {
-      status,
-      message,
-      details,
-    },
+    error: { status, message, details },
   });
 });
 
@@ -54,7 +50,8 @@ app.use((err, req, res, next) => {
 const frontendPath = path.join(__dirname, "frontend/dist");
 app.use(express.static(frontendPath));
 
-app.get("*", (req, res) => {
+// Catch-all SPA route compatible Node 22
+app.get("/*", (req, res) => {
   res.sendFile(path.join(frontendPath, "index.html"));
 });
 

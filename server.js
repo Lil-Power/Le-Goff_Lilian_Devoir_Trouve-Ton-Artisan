@@ -50,8 +50,8 @@ app.use((err, req, res, next) => {
 const frontendPath = path.join(__dirname, "frontend/dist");
 app.use(express.static(frontendPath));
 
-// Catch-all SPA route compatible Node 22
-app.get("/*", (req, res) => {
+// Catch-all pour SPA React (compatible Node 22 et path-to-regexp v6)
+app.use((req, res) => {
   res.sendFile(path.join(frontendPath, "index.html"));
 });
 
